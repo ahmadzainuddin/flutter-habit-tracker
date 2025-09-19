@@ -115,5 +115,5 @@ Below are example screens captured from this app. Paths refer to files in the `s
 ## Developer
 
 - Name: Zainuddin
-- Email: admin@codemaster.my
+- Email: zainuddin@codemaster.my
 - Website: https://www.codemaster.my
