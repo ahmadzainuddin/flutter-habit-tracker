@@ -178,6 +178,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
             Spacer(),
             ElevatedButton(
               onPressed: () {
+                _showTestAlert();
                 _sendTestNotification();
               },
               child: Text('Send Test Notification'),
@@ -192,6 +193,24 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+extension _NotificationsScreenAlerts on _NotificationsScreenState {
+  void _showTestAlert() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Habit Reminder'),
+        content: const Text("It's time to work on your habit!"),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('OK'),
+          )
+        ],
       ),
     );
   }
