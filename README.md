@@ -111,3 +111,9 @@ Below are example screens captured from this app. Paths refer to files in the `s
 - iOS: consider adding specific domain ATS exceptions for production instead of allowing arbitrary loads.
 - Notifications: for scheduled habit reminders, add scheduling logic with `flutter_local_notifications`.
 - Reports: implement real analytics/visualization.
+
+## Developer
+
+- Name: Zainuddin
+- Email: admin@codemaster.my
+- Website: https://www.codemaster.my
